@@ -12,6 +12,4 @@ def get_random_activity(BASE_URL: str) -> str:
 
 activity = get_random_activity(BASE_URL)
 
-print(
-    f'3..2..1..You\'re randomly chosen activity is "{get_random_activity(BASE_URL)}."'
-)
+print(f'3..2..1..You\'re randomly chosen activity is "{activity}."')
